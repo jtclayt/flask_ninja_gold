@@ -3,10 +3,49 @@
 */
 
 /* HTML selector rules */
+body {
+  background-color: rgba(175, 157, 55, 0.493);
+}
 
+h2 > span {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  border: 2px solid black;
+}
+
+main.container {
+  padding: 40px;
+  background-color: rgba(245, 245, 245, 0.829);
+}
+
+nav > h1.navbar-brand {
+  font-size: 2rem;
+}
 
 /* Class rules */
-
+.card {
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+}
 
 /* ID rules */
+#activities {
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  background-color: azure;
+  border: 3px solid rgb(53, 53, 53);
+  list-style: none;
+  overflow-y: scroll;
+}
 
+#form-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
