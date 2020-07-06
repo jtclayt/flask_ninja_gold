@@ -9,11 +9,10 @@ body {
 
 h2 > span {
   display: inline-block;
-  position: relative;
-  top: 5px;
   width: 100px;
-  height: 40px;
   margin-left: 10px;
+  padding: 5px 10px;
+  text-align: end;
   border: 2px solid black;
 }
 
@@ -24,6 +23,8 @@ main.container {
 
 nav > h1.navbar-brand {
   font-size: 2rem;
+  margin-left: 40px;
+  color: gold;
 }
 
 /* Class rules */
